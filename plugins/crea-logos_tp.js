@@ -4,7 +4,7 @@ import t from"axios";import e from"../lib/calendario.js";let split="|",handler=a
 1️⃣ ${Prefijo}logo *(efecto) (texto...)*
 
 *📌 Ejemplo de uso:*
-${Prefijo}logo space Nekosmic
+${Prefijo}logo space Fantasmin
 
 *🖼️ Para logos con texto separados por una linea vertical*
 2️⃣ ${Prefijo}logo *(efecto) (texto1)|(texto2)* 
