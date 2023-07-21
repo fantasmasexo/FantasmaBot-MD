@@ -135,7 +135,7 @@ reacMoji(m.chat, conn, '🔰', m)
 }
 const defaultMenu = {
   before: `\n
-╭═══❮ \`\`\`NeKoTinaBot-MD\`\`\` ❯═══❍
+╭═══❮ \`\`\`FantasmaBot-MD\`\`\` ❯═══❍
 ║╭──────────────────────❐
 ║┃ *⏲️ Tiempo activo:* %uptime
 ║┃ *🃏 Version del bot:* %version
