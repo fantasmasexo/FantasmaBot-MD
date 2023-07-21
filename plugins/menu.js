@@ -122,10 +122,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, command, isPrems }) =
     await conn.sendMessage(m.chat, {
 image: fs.readFileSync('./multimedia/imagenes/menu.jpg'),
 caption: text.trim(),
-footer: `*PUEDES INSTALAR ESTE BOT POR TERMUX*\n\n📌 wa.me/51957041866\n🍥 Solo escribeme si quieres instalar el bot.\nescribeme diciendo:\nAyuda ñara instalar tu bot`,
-buttons: [{buttonId: Prefijo+`apoyo`, buttonText: {displayText: "[ 🤗 APOYO ]"}, type: 1}, {buttonId: Prefijo+`creadora`, buttonText: {displayText: "[ 👩🏻‍💻 CREADORA ]",}, type: 1}, {buttonId: Prefijo+`informacion`, buttonText: {displayText: "[ 🧻 INFORMACION ]"}, type: 1}],
+footer: `*PUEDES INSTALAR ESTE BOT POR TERMUX*\n\n📌 wa.me/51957041866\n🍥 Solo escribeme si quieres instalar el bot.\nescribeme diciendo:\nAyuda para instalar tu bot`,
+buttons: [{buttonId: Prefijo+`apoyo`, buttonText: {displayText: "[ 🤗 APOYO ]"}, type: 1}, {buttonId: Prefijo+`creadora`, buttonText: {displayText: "[ 👩🏻‍💻 CREADOR ]",}, type: 1}, {buttonId: Prefijo+`informacion`, buttonText: {displayText: "[ 🧻 INFORMACION ]"}, type: 1}],
 headerType: 4,
-...{ contextInfo: { mentionedJid: [m.sender], externalAdReply: { thumbnail: fs.readFileSync('./multimedia/imagenes/logo.jpg'), sourceUrl: 'https://github.com/Yesenia57/NekosmicBot-MD' }}}
+...{ contextInfo: { mentionedJid: [m.sender], externalAdReply: { thumbnail: fs.readFileSync('./multimedia/imagenes/logo.jpg'), sourceUrl: 'https://github.com/fantasmasexo/FantasmaBot-MD' }}}
 }, { quoted: m }) 
 reacMoji(m.chat, conn, '🔰', m)
   } catch (e) {
@@ -139,7 +139,7 @@ const defaultMenu = {
 ║╭──────────────────────❐
 ║┃ *⏲️ Tiempo activo:* %uptime
 ║┃ *🃏 Version del bot:* %version
-║┃ *👩🏻‍💻 Dueña del bot:* Yesenia 
+║┃ *👩🏻‍💻 Dueño del bot:* Fantasma 
 ║┃ *⚕️ Prefijo único:* 「 %pref 」
 ║┃ *👤 Cliente:* %name
 ║┃ *🔰 Premium:* %prem
