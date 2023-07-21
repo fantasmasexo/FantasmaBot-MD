@@ -22,7 +22,7 @@ let tags = {
   'casual': '❤️ CMDS-CASUAL :',
   'conversor': '🕊️ CONVERSORES :',
   'avanzado': '🏙️ AVANZADO :',
-  'propietario': '👩🏻‍💻 CMDS DUEÑA :',
+  'propietario': '👩🏻‍💻 CMDS DUEÑO :',
   '': '_OTROS :_'
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, command, isPrems }) => {
