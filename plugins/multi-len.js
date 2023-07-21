@@ -21,7 +21,7 @@ conn.sendMessage(m.chat, { caption: `[Lenguaje|Language] :
 *┗━━⊱* ${Prefijo + command} en
 `, footer: `\`\`\`[NOTA] : Esto no afecta a los comandos del bot
 [NOTE] : This does not affect the bot commands
-\`\`\`\n@NeKosmic`, location: { jpegThumbnail: await miniLoc('./multimedia/imagenes/MultiHD.jpg') }, buttons: [
+\`\`\`\n@Fantasma`, location: { jpegThumbnail: await miniLoc('./multimedia/imagenes/MultiHD.jpg') }, buttons: [
 {buttonId: `${prefix}menu`, buttonText: {displayText: `[ MENU 📖 ]`}, type: 1}
 ], headerType: 'LOCATION', mentions: [m.sender] })
 }
