@@ -7,15 +7,15 @@ let name = await conn.getName(who)
 const nomorown = "51957041866"
 
   await sendContactArray(conn, m.chat, [
-    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `© Devolper Owner`, `Creadora oficial`, `yeseniaofc1@gmail.com`, `🇵🇪 Perú`, `📍 https://github.com/Yesenia57`, `👤  Owner Bot`],
-    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🤖 NeKoTinaBot-MD`, `📵 No hagas Spam 😢`, `Nothing`, `🇵🇪 Perú`, `📍 https://github.com/Yesenia57/NeKoTinaBot-MD`, `Hola my King ☺`]
+    [`${nomorown}`, `${await conn.getName(nomorown+'@s.whatsapp.net')}`, `© Devolper Owner`, `Creador oficial`, `fantasmin@gmail.com`, `🇵🇪 Perú`, `📍 https://github.com/FantasmaSexo`, `👤  Owner Bot`],
+    [`${conn.user.jid.split('@')[0]}`, `${await conn.getName(conn.user.jid)}`, `🤖 FantasmaBot-MD`, `📵 No hagas Spam 😢`, `Nothing`, `🇵🇪 Perú`, `📍 https://github.com/Yesenia57/FantasmaBot-MD`, `Hola my King ☺`]
   ], m)
   m.reply(`Hola @${m.sender.split(`@`)[0]} este es el contacto de mi creadora, no hagas spam!!`)
   } 
 
-handler.help = ["creadora","owner"]
-handler.tags = ["creadora"]
-handler.command = /^(creadora)$/i
+handler.help = ["creador","owner"]
+handler.tags = ["creador"]
+handler.command = /^(creador)$/i
 export default handler
 
 async function sendContactArray(conn, jid, data, quoted, options) {
