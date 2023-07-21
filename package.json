@@ -1,7 +1,7 @@
 {
-    "name": "NeKoTinaBot-MD",
+    "name": "FantasmaBot-MD",
     "version": "1.0.5",
-    "description": "WhatsApp bot NK versi¨®n Multidevice espero te guste :3",
+    "description": "WhatsApp bot NK versiÂ¨Â®n Multidevice espero te guste :3",
     "main": "nkbot.js",
     "type": "module",
     "directories": {
